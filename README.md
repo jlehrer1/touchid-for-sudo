@@ -34,7 +34,6 @@ However, it is **not** recommended that you delete `~/.touch-id-for-sudo/` as it
 contains all the clean backups of the edited root files.
 
 Although this method should be safe theoretically, it's not a bad idea to make a
-Time Machine backup. Although the changes seem trivial, changing root files can
-lead to weird behavior that is very hard to track down. 
+Time Machine backup since changing root files can lead to weird behavior that is very hard to track down. 
 
 
