@@ -1,5 +1,5 @@
 # touchid-for-sudo
-### A script to safely enable using the Macbook's Touch ID for sudo running commands.
+### A tool to safely enable using the Macbook's Touch ID for sudo running commands.
 
 Usage:
 To install, simply paste the following into your Terminal of choice. Since this
