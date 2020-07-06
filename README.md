@@ -27,7 +27,7 @@ cd touch-id-for-sudo/
 chmod +x uninstall.sh
 ./uninstall.sh
 cd ..
-rm -rf touch-id-for-sudo
+rm -rf touch-id-for-sudo/
 ```
 
 However, it is **not** recommended that you delete `~/.touch-id-for-sudo/` as it
