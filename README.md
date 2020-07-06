@@ -10,14 +10,14 @@ requires editing root files, your password will be required.
 git clone https://github.com/jlehrer1/touchid-for-sudo
 cd touchid-for-sudo/
 chmod +x install.sh
-./install.sh
+sudo ./install.sh
 cd ..
 rm -rf touchid-for-sudo/
 ```
 
 To uninstall, either run
 ```shell
-~/.touch-id-for-sudo/uninstall.sh
+sudo ~/.touch-id-for-sudo/uninstall.sh
 ```
 
 Or if you have since deleted the folder,
@@ -25,10 +25,10 @@ Or if you have since deleted the folder,
 git clone https://github.com/jlehrer1/touchid-for-sudo
 cd touch-id-for-sudo/
 chmod +x uninstall.sh
-./uninstall.sh
+sudo ./uninstall.sh
 cd ..
 rm -rf touch-id-for-sudo/
 ```
 
 However, it is **not** recommended that you delete `~/.touch-id-for-sudo/` as it
-contains all the backups of the edited root files.
+contains all the clean backups of the edited root files.
