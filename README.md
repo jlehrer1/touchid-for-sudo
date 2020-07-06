@@ -25,8 +25,6 @@ git clone https://github.com/jlehrer1/touchid-for-sudo
 cd touch-id-for-sudo/
 chmod +x uninstall.sh
 sudo ./uninstall.sh
-cd ..
-rm -rf touch-id-for-sudo/
 ```
 
 However, it is **not** recommended that you delete `~/.touch-id-for-sudo/` as it
