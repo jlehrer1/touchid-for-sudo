@@ -24,9 +24,11 @@ root since the user
 will not have write permissions to the sudo file backup)
 ```shell
 git clone https://github.com/jlehrer1/touchid-for-sudo
-cd touch-id-for-sudo/
+cd touchid-for-sudo/
 chmod +x uninstall.sh
 sudo ./uninstall.sh
+cd ..
+rm -rf touchid-for-sudo/
 ```
 
 However, it is **not** recommended that you delete `~/.touch-id-for-sudo/` as it
