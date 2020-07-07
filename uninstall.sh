@@ -32,10 +32,10 @@ else
 		read -r -p "Finished uninstalling. Would you like to keep the backup found at ~/.touchid-for-sudo/sudo? (y/n) " input
 		case $input in
 			[yY][eE][sS]|[yY])
-				rm -rf "${HOME}/.touchid-for-sudo"
 				break
 				;;
 			[nN][oO]|[nN])
+				rm -rf "${HOME}/.touchid-for-sudo"
 				break
 				;;
 			*)
