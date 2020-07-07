@@ -19,7 +19,9 @@ To uninstall, either run
 sudo ~/.touch-id-for-sudo/uninstall.sh
 ```
 
-Or if you have since deleted the folder,
+Or if you have since deleted the folder, (which will require running as
+root since the user
+will not have write permissions to the sudo file backup)
 ```shell
 git clone https://github.com/jlehrer1/touchid-for-sudo
 cd touch-id-for-sudo/
