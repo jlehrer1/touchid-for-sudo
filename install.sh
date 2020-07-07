@@ -1,3 +1,6 @@
+#!/bin/bash
+
+# Install script for touchid-for-sudo
 echo "Installing..."
 mkdir -p "${HOME}/.touchid-for-sudo"
 cp /etc/pam.d/sudo "${HOME}/.touchid-for-sudo"
